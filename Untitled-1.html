@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProtectPlus</title>
+    <style>
+        body {
+            text-align: center; /* Aligne tout le texte au centre */
+        }
+        /* Style du pop-up */
+        #popup {
+            display: none; /* Masquer le pop-up par défaut */
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            z-index: 1000;
+        }
+        #overlay 
+            display: none; /* Masquer l'overlay par défaut */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+   
+    </style>
+        
+   
+</head>
+<body>
+
+
+    <img src="https://cdn-icons-png.flaticon.com/512/3813/3813237.png" width=20%>  <h1 style="font-family: Arial, sans-serif; font-size: 1.5
+    em; color: #333;">
+        ProtectPlus</h1>
+<br>
+
+<h1 style="font-family: Arial, sans-serif; font-size: 24px;">Protégez Votre Monde Numérique avec ProtectPlus</h1>
+    <p style="font-family: Arial, sans-serif; font-size: 16px;">Dans un monde de plus en plus connecté, la sécurité de vos appareils et de vos données est essentielle. <strong>ProtectPlus</strong> est conçu pour offrir une protection optimale contre toutes les menaces en ligne, qu'il s'agisse de virus, de malwares, de ransomwares ou de tentatives de phishing.</p>
+    
+    <h2 style="font-family: Arial, sans-serif; font-size: 20px;">Fonctionnalités Clés de ProtectPlus :</h2>
+    <br>
+    <ul>
+        <li style="font-family: Arial, sans-serif; font-size: 16px;"><strong>Analyse en Temps Réel</strong> : Surveille en permanence les activités de votre système, détectant et neutralisant instantanément les menaces potentielles.</li>
+        <br>
+        <li style="font-family: Arial, sans-serif; font-size: 16px;"><strong>Mises à Jour Automatiques</strong> : Profitez de mises à jour automatiques régulières pour rester protégé contre les dernières menaces émergentes.</li>
+        <br>
+        <li style="font-family: Arial, sans-serif; font-size: 16px;"><strong>Navigation Sécurisée</strong> : Parcourez le web en toute tranquillité grâce à notre fonctionnalité de navigation sécurisée, qui bloque les sites malveillants et les contenus dangereux.</li>
+        <br>
+        <li style="font-family: Arial, sans-serif; font-size: 16px;"><strong>Protection des Données Personnelles</strong> : Préservez la confidentialité de vos informations avec notre technologie avancée de protection des données.</li>
+    </ul>
+    <br>
+
+    <h2 style="font-family: Arial, sans-serif; font-size: 20px;">Pourquoi Choisir ProtectPlus ?</h2>
+    <ul>
+        <li style="font-family: Arial, sans-serif; font-size: 16px;"><strong>Facilité d'Utilisation</strong> : Notre interface conviviale permet à tout le monde, même aux débutants, de naviguer facilement et de configurer les paramètres de sécurité.</li>
+        <bR>
+        <li style="font-family: Arial, sans-serif; font-size: 16px;"><strong>Support Client Dédié</strong> : Bénéficiez d'une assistance technique 24/7 pour répondre à toutes vos questions et résoudre vos problèmes rapidement.</li>
+        <br>
+        <li style="font-family: Arial, sans-serif; font-size: 16px;"><strong>Performance Optimale</strong> : ProtectPlus est conçu pour fonctionner sans ralentir votre système, vous offrant ainsi une protection efficace sans compromis sur la performance.</li>
+    </ul>
+    <br>
+
+    <h2 style="font-family: Arial, sans-serif; font-size: 20px;">Téléchargez ProtectPlus Dès Maintenant !</h2>
+    <p style="font-family: Arial, sans-serif; font-size: 16px;">Ne laissez pas les menaces en ligne compromettre votre sécurité. Téléchargez <strong>ProtectPlus</strong> dès aujourd'hui et profitez d'une période d'essai gratuite. Faites le choix de la tranquillité d'esprit et assurez la protection de vos appareils et de vos données.</p>
+
+
+<div id="overlay"></div>
+<div id="popup"</div>
+    <img src="https://static.vecteezy.com/system/resources/previews/017/178/327/non_2x/warning-hazard-sign-on-transparent-background-free-png.png" width=30% height=30%>
+    <h1 style="font-family: Arial, sans-serif; font-size: 2.5em; color: #333;">
+        ATTENTION</h1>
+        <h1 style="font-family: Arial, sans-serif; font-size: 2.5em; color: #333;">
+            5 virus</h1>
+        
+
+    <p style="font-family: Arial, sans-serif; font-size: 1.2em; color: #555;">
+        Votre appareil a détecté cinq virus potentiels qui peuvent nuire à ses performances et à votre sécurité. Pour vous protéger efficacement et éliminer ces menaces, il est crucial de télécharger un bon antivirus. En installant cet antivirus, vous pourrez non seulement supprimer les virus déjà présents, mais aussi bénéficier d'une protection en temps réel contre de futures menaces. Ne laissez pas ces virus compromettre votre expérience ; agissez dès maintenant et téléchargez l'antivirus pour assurer la sécurité de votre appareil.
+    </p>
+
+    <a href="https://doctoredits.com/1798330" style="padding: 15px 30px; font-size: 1.2em; color: white; background-color: #007bff; border: none; border-radius: 5px; cursor: pointer; text-decoration: none; transition: background-color 0.3s; display: inline-block;">
+    Télécharger l'antivirus
+</a>
+</div>
+
+<script>
+    // Fonction pour afficher le pop-up
+    function showPopup() {
+        document.getElementById('overlay').style.display = 'block';
+        document.getElementById('popup').style.display = 'block';
+    }
+
+    // Fonction pour fermer le pop-up
+    function closePopup() {
+        document.getElementById('overlay').style.display = 'none';
+        document.getElementById('popup').style.display = 'none';
+    }
+
+    // Afficher le pop-up après 5 secondes
+    setTimeout(showPopup, 2000);
+</script>
+
+</body>
+</html>
